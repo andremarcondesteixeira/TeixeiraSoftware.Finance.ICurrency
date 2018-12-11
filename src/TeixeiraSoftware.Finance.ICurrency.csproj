@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>TeixeiraSoftware.Finance.ICurrency</AssemblyName>
+    <Title>TeixeiraSoftware.Finance.ICurrency</Title>
+    <PackageVersion>1.0.0</PackageVersion>
+    <AssemblyCompany>Teixeira Software</AssemblyCompany>
+    <AssemblyDescription>A simple NetStandard based interface for representing currency in .Net projects.</AssemblyDescription>
+    <RootNamespace>TeixeiraSoftware</RootNamespace>
+    <ApplicationIcon />
+    <Win32Resource />
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Authors>andremteixeira</Authors>
+    <Company>Teixeira Software</Company>
+    <Description>A simple NetStandard based interface for representing currency in .Net projects.</Description>
+    <Copyright>Teixeira Software</Copyright>
+    <RepositoryUrl>https://github.com/andremarcondesteixeira/TeixeiraSoftware.Finance.ICurrency</RepositoryUrl>
+    <PackageTags>currency;finance;netstandard</PackageTags>
+    <NeutralLanguage>en</NeutralLanguage>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <Version>1.0.0</Version>
+    <PackageProjectUrl>https://andremarcondesteixeira.github.io/TeixeiraSoftware.Finance.ICurrency/</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReleaseNotes>First relase.</PackageReleaseNotes>
+    <PackageIconUrl>https://github.com/andremarcondesteixeira/assets/raw/master/logo_small.png</PackageIconUrl>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <Optimize>True</Optimize>
+    <DocumentationFile>bin\Debug\netstandard2.0\TeixeiraSoftware.Finance.ICurrency.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\netstandard2.0\TeixeiraSoftware.Finance.ICurrency.xml</DocumentationFile>
+  </PropertyGroup>
+</Project>
