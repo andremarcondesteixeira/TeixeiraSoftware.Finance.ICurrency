@@ -1,6 +1,6 @@
 # TeixeiraSoftware.Finance.ICurrency
 
-This is just a simple interface that is used the TeixeiraSoftware.Finance.Currency library.
+This is just a simple interface that is used by the TeixeiraSoftware.Finance.Currency library.
 
 ```
     public interface ICurrency : IEquatable<ICurrency>
